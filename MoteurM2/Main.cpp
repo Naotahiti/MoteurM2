@@ -1,7 +1,9 @@
 #include <iostream>
 #include <GLFW/glfw3.h>
 
-
+#include "../dependencies/IMGUI/imgui/imgui.h"
+#include "../dependencies/IMGUI/imgui/imgui_impl_opengl3.h"
+#include "../dependencies/IMGUI/imgui/imgui_impl_glfw.h"
 
 int main(void)
 {
@@ -18,6 +20,9 @@ int main(void)
         glfwTerminate();
         return -1;
     }
+
+    /* Make the window's context current */
+    glfwMakeContextCurrent(window);
     
     IMGUI_CHECKVERSION();    
     ImGui::CreateContext();    
@@ -26,15 +31,31 @@ int main(void)
     ImGui_ImplGlfw_InitForOpenGL(window, true);    
     ImGui_ImplOpenGL3_Init("#version 330");
 
-
-    /* Make the window's context current */
-    glfwMakeContextCurrent(window);
-
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))
     {
         /* Render here */
+        int display_w, display_h;
+        glfwGetFramebufferSize(window, &display_w, &display_h);
+        glViewport(0, 0, display_w, display_h);
         glClear(GL_COLOR_BUFFER_BIT);
+
+        // Start the Dear ImGui frame
+        ImGui_ImplOpenGL3_NewFrame();
+        ImGui_ImplGlfw_NewFrame();
+        ImGui::NewFrame();
+
+        // Faire la frame ici
+
+        if (ImGui::Begin("Test window"))
+        {
+            if (ImGui::Button("Hello")) {}
+        }
+        ImGui::End();
+
+        // End the ImGui frame
+        ImGui::Render();
+        ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);

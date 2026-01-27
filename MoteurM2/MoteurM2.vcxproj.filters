@@ -30,9 +30,6 @@
     <ClCompile Include="..\dependencies\IMGUI\imgui\imgui.cpp">
       <Filter>Fichiers sources\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\dependencies\IMGUI\imgui\imgui_demo.cpp">
-      <Filter>Fichiers sources\imgui</Filter>
-    </ClCompile>
     <ClCompile Include="..\dependencies\IMGUI\imgui\imgui_draw.cpp">
       <Filter>Fichiers sources\imgui</Filter>
     </ClCompile>
@@ -68,13 +65,13 @@
     <ClInclude Include="..\dependencies\IMGUI\imgui\imstb_truetype.h">
       <Filter>Fichiers d%27en-tête\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\dependencies\IMGUI\imgui\imgui_impl_opengl3_loader.h">
+    <ClInclude Include="..\dependencies\IMGUI\imgui\imgui_impl_glfw.h">
       <Filter>Fichiers d%27en-tête\imgui</Filter>
     </ClInclude>
     <ClInclude Include="..\dependencies\IMGUI\imgui\imgui_impl_opengl3.h">
       <Filter>Fichiers d%27en-tête\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\dependencies\IMGUI\imgui\imgui_impl_glfw.h">
+    <ClInclude Include="..\dependencies\IMGUI\imgui\imgui_impl_opengl3_loader.h">
       <Filter>Fichiers d%27en-tête\imgui</Filter>
     </ClInclude>
   </ItemGroup>

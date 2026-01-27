@@ -1,0 +1,17 @@
+# ===== Visual Studio =====
+.vs/
+*.vcxproj.user
+
+# ===== Compiled files =====
+*.obj
+*.exe
+*.dll
+*.pdb
+
+# Ignore les .lib dans les dossiers de build uniquement
+build/**/*.lib
+bin/**/*.lib
+out/**/*.lib
+x64/**/*.lib
+Debug/**/*.lib
+Release/**/*.lib

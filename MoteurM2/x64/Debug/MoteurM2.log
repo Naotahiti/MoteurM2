@@ -1,2 +1,2 @@
 ﻿  Main.cpp
-C:\Users\hinen\Desktop\cours\MoteurM2\MoteurM2\Main.cpp(3,10): error C1083: Impossible d'ouvrir le fichier include : 'imgui_impl_opengl3.h' : No such file or directory
+  MoteurM2.vcxproj -> C:\Users\hinen\Desktop\cours\MoteurM2\x64\Debug\MoteurM2.exe

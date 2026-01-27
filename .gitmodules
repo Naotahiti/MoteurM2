@@ -1,0 +1,6 @@
+[submodule "IMGUI"]
+	path = IMGUI
+	url = https://github.com/ocornut/imgui
+[submodule "dependencies/IMGUI/imgui"]
+	path = dependencies/IMGUI/imgui
+	url = https://github.com/ocornut/imgui.git
