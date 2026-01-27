@@ -50,12 +50,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\dependencies\IMGUI\imgui\backends\imgui_impl_opengl3.h">
-      <Filter>Fichiers d%27en-tête\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\dependencies\IMGUI\imgui\backends\imgui_impl_glfw.h">
-      <Filter>Fichiers d%27en-tête\imgui</Filter>
-    </ClInclude>
     <ClInclude Include="..\dependencies\IMGUI\imgui\imconfig.h">
       <Filter>Fichiers d%27en-tête\imgui</Filter>
     </ClInclude>
@@ -75,6 +69,12 @@
       <Filter>Fichiers d%27en-tête\imgui</Filter>
     </ClInclude>
     <ClInclude Include="..\dependencies\IMGUI\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Fichiers d%27en-tête\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\IMGUI\imgui\imgui_impl_opengl3.h">
+      <Filter>Fichiers d%27en-tête\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\IMGUI\imgui\imgui_impl_glfw.h">
       <Filter>Fichiers d%27en-tête\imgui</Filter>
     </ClInclude>
   </ItemGroup>

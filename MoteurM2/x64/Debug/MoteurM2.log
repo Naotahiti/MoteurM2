@@ -1,10 +1,2 @@
 ﻿  Main.cpp
-Main.obj : error LNK2019: symbole externe non résolu glfwInit référencé dans la fonction main
-Main.obj : error LNK2019: symbole externe non résolu glfwTerminate référencé dans la fonction main
-Main.obj : error LNK2019: symbole externe non résolu glfwCreateWindow référencé dans la fonction main
-Main.obj : error LNK2019: symbole externe non résolu glfwWindowShouldClose référencé dans la fonction main
-Main.obj : error LNK2019: symbole externe non résolu glfwPollEvents référencé dans la fonction main
-Main.obj : error LNK2019: symbole externe non résolu glfwMakeContextCurrent référencé dans la fonction main
-Main.obj : error LNK2019: symbole externe non résolu glfwSwapBuffers référencé dans la fonction main
-C:\Users\hinen\Desktop\cours\MoteurM2\dependencies\GLFW\lib-vc2022\glfw3.lib : warning LNK4272: type d'ordinateur bibliothèque 'x86' en conflit avec le type d'ordinateur cible 'x64'
-C:\Users\hinen\Desktop\cours\MoteurM2\x64\Debug\MoteurM2.exe : fatal error LNK1120: 7 externes non résolus
+C:\Users\hinen\Desktop\cours\MoteurM2\MoteurM2\Main.cpp(3,10): error C1083: Impossible d'ouvrir le fichier include : 'imgui_impl_opengl3.h' : No such file or directory

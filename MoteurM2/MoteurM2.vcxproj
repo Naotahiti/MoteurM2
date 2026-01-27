@@ -157,10 +157,10 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\dependencies\IMGUI\imgui\backends\imgui_impl_glfw.h" />
-    <ClInclude Include="..\dependencies\IMGUI\imgui\backends\imgui_impl_opengl3.h" />
     <ClInclude Include="..\dependencies\IMGUI\imgui\imconfig.h" />
     <ClInclude Include="..\dependencies\IMGUI\imgui\imgui.h" />
+    <ClInclude Include="..\dependencies\IMGUI\imgui\imgui_impl_glfw.h" />
+    <ClInclude Include="..\dependencies\IMGUI\imgui\imgui_impl_opengl3.h" />
     <ClInclude Include="..\dependencies\IMGUI\imgui\imgui_impl_opengl3_loader.h" />
     <ClInclude Include="..\dependencies\IMGUI\imgui\imgui_internal.h" />
     <ClInclude Include="..\dependencies\IMGUI\imgui\imstb_rectpack.h" />
