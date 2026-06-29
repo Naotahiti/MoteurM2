@@ -1,12 +1,15 @@
 #include <iostream>
 #include <GLFW/glfw3.h>
 
+
+
 #include "../dependencies/IMGUI/imgui/imgui.h"
 #include "../dependencies/IMGUI/imgui/imgui_impl_opengl3.h"
 #include "../dependencies/IMGUI/imgui/imgui_impl_glfw.h"
 
 int main(void)
 {
+    
     GLFWwindow* window;
 
     /* Initialize the library */
@@ -49,7 +52,10 @@ int main(void)
 
         if (ImGui::Begin("Test window"))
         {
-            if (ImGui::Button("Hello")) {}
+            if (ImGui::Button("Hello")) {
+               // ImGui::Button("e");
+            }
+            
         }
         ImGui::End();
 

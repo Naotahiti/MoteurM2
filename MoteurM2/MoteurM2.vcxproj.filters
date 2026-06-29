@@ -22,6 +22,27 @@
     <Filter Include="Fichiers d%27en-tête\imgui">
       <UniqueIdentifier>{915248ea-d8df-40b5-abd6-289abbfae852}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Graphics">
+      <UniqueIdentifier>{bb7c284f-0f00-4cb0-9586-8a0219a37eef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Graphics">
+      <UniqueIdentifier>{2fdf32ec-dbd9-4e67-bc03-93a727c13af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core">
+      <UniqueIdentifier>{7e58511e-f8dd-4dcc-8b7f-d1fa0d387111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core">
+      <UniqueIdentifier>{03c69b60-b401-4f06-8dd3-8dae716e504d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\events">
+      <UniqueIdentifier>{e29dd51f-0266-489a-854e-3b76395911fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\events">
+      <UniqueIdentifier>{d377b5e5-e851-467d-af58-145d92ac856e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\RT">
+      <UniqueIdentifier>{bd67ff3c-c944-4b96-b7b2-9d97c6ad136e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -44,6 +65,9 @@
     </ClCompile>
     <ClCompile Include="..\dependencies\IMGUI\imgui\imgui_impl_opengl3.cpp">
       <Filter>Fichiers sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +97,45 @@
     </ClInclude>
     <ClInclude Include="..\dependencies\IMGUI\imgui\imgui_impl_opengl3_loader.h">
       <Filter>Fichiers d%27en-tête\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="InputAction.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Fichiers d%27en-tête\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RT\RT\camera.h">
+      <Filter>Fichiers d%27en-tête\RT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RT\RT\color.h">
+      <Filter>Fichiers d%27en-tête\RT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RT\RT\hittable.h">
+      <Filter>Fichiers d%27en-tête\RT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RT\RT\hittable_list.h">
+      <Filter>Fichiers d%27en-tête\RT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RT\RT\interval.h">
+      <Filter>Fichiers d%27en-tête\RT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RT\RT\ray.h">
+      <Filter>Fichiers d%27en-tête\RT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RT\RT\resource.h">
+      <Filter>Fichiers d%27en-tête\RT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RT\RT\rtweekend.h">
+      <Filter>Fichiers d%27en-tête\RT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RT\RT\sphere.h">
+      <Filter>Fichiers d%27en-tête\RT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RT\RT\vec3.h">
+      <Filter>Fichiers d%27en-tête\RT</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -153,9 +153,20 @@
     <ClCompile Include="..\dependencies\IMGUI\imgui\imgui_impl_opengl3.cpp" />
     <ClCompile Include="..\dependencies\IMGUI\imgui\imgui_tables.cpp" />
     <ClCompile Include="..\dependencies\IMGUI\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\RT\RT\camera.h" />
+    <ClInclude Include="..\..\RT\RT\color.h" />
+    <ClInclude Include="..\..\RT\RT\hittable.h" />
+    <ClInclude Include="..\..\RT\RT\hittable_list.h" />
+    <ClInclude Include="..\..\RT\RT\interval.h" />
+    <ClInclude Include="..\..\RT\RT\ray.h" />
+    <ClInclude Include="..\..\RT\RT\resource.h" />
+    <ClInclude Include="..\..\RT\RT\rtweekend.h" />
+    <ClInclude Include="..\..\RT\RT\sphere.h" />
+    <ClInclude Include="..\..\RT\RT\vec3.h" />
     <ClInclude Include="..\dependencies\IMGUI\imgui\imconfig.h" />
     <ClInclude Include="..\dependencies\IMGUI\imgui\imgui.h" />
     <ClInclude Include="..\dependencies\IMGUI\imgui\imgui_impl_glfw.h" />
@@ -165,6 +176,9 @@
     <ClInclude Include="..\dependencies\IMGUI\imgui\imstb_rectpack.h" />
     <ClInclude Include="..\dependencies\IMGUI\imgui\imstb_textedit.h" />
     <ClInclude Include="..\dependencies\IMGUI\imgui\imstb_truetype.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="InputAction.h" />
+    <ClInclude Include="InputManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
